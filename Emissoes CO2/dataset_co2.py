@@ -9,3 +9,6 @@ expectativaVSco2 = dadosselecionados.groupby(['LifeExpectancy','Country'], as_in
 print(expectativaVSco2.sort_values('LifeExpectancy', ascending= False))
 
 expectativaVSco2.to_excel('expectativaVSco2.xlsx')
+
+
+#ainda falta plotar de uma forma digna
